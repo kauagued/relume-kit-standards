@@ -21,7 +21,8 @@
             font-family: "Roboto", sans-serif;
             font-style: normal;
         }
-        header{
+
+        header {
             width: 100%;
             height: 72px;
             display: flex;
@@ -29,147 +30,258 @@
             justify-content: space-between;
             align-items: center;
         }
-        header > img{
+
+        header>img {
             width: 80px;
             height: 40px;
         }
-        .header-nav{
+
+        .header-nav {
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 32px;
         }
-        nav{
+
+        nav {
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 32px;
         }
-        nav > button {
+
+        nav>button {
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 4px;
         }
-        button > p {
+
+        button>p {
             font-size: 16px;
             font-weight: 400;
             color: black;
-            
+
         }
-        a{
+
+        a {
             font-size: 16px;
             font-weight: 400;
             color: black;
         }
-        .btn-wraper{
+
+        .btn-wraper {
             display: flex;
             gap: 16px;
         }
-        .btn-wraper > button{
-            padding: 8px 20px;
-            border: 1px solid black;
+
+
+        .btn-wraper>button {
+          padding: 8px 20px;
         }
-        .btn-secondery{
+
+        .btn-secondery {
             background-color: black;
-            color: white;              
+            color: white;
         }
-        .Menu{
+
+        .Menu {
             display: flex;
             overflow: hidden;
+            margin-top: 32px;
+
+
         }
-        .grup-one{
+
+
+        .Menu h5 {
+            margin-bottom: 20px;
+        }
+
+        .grup-one {
             display: block;
             padding: 30px;
             padding-left: 60px;
-
-
-        }
-        .grup-one div{
-            padding: 10px;
+            white-space: nowrap;
 
         }
-        .grup-two{
+
+        .grup-one a {
+            font-weight: bold;
+        }
+
+        .grup-one img {
+            float: left;
+            margin-right: 10px;
+        }
+
+        .grup-one div {
+            padding: 16px;
+
+        }
+
+        .grup-two {
             display: block;
             padding: 30px;
+            white-space: nowrap;
         }
-        .grup-two div{
+
+        .grup-two a {
+            font-weight: bold;
+        }
+
+        .grup-two img {
+            float: left;
+            margin-right: 10px;
+        }
+
+        .grup-two div {
+            padding: 16px;
+        }
+        .blog{
+            display: flex;
+            max-width: 100%;
+            flex-direction: column;
+            padding: 30px;
+            padding-left: 90px;
+            white-space: nowrap;
+
+        }
+        .blog button{
+            display: flex;
+            align-items: center;
+            margin-left: 12px;
+        }
+        .blog button img{
+            margin-left: 6px;
+            width: 7px;
+            height: 12px;
+            float: right;
+        }
+        .blog h5 {
+           padding-left: 12px;
+        }
+        .blog h4{
             padding: 10px;
         }
+
+        .blog-post a{
+            text-decoration: underline;
+            display: flex;
+            margin-top: 12px;
+        }
+
+        .blog-post img{
+            margin-right: 20px;
+            padding: 12px;
+            float: left;
+
+        }
+        
     </style>
 </head>
 
 <body>
-   <header>
-       <div class="header-nav">
-        <img src="/marketing-components/navbars/assets/images/company-logo.svg" alt="">
-        <nav>
-             <a href="">Link One</a>
-            <a href="">Link Two </a>
-            <a href="">Link Three</a>
-            <button>
-                <p>Link Four</p>
-                <img src="/marketing-components/navbars/assets/images/chevron-down.svg" alt="image chevron down">
-            </button>
-            
-        </nav>
-    </div>
+    <header>
+        <div class="header-nav">
+            <img src="/marketing-components/navbars/assets/images/company-logo.svg" alt="">
+            <nav>
+                <a href="">Link One</a>
+                <a href="">Link Two </a>
+                <a href="">Link Three</a>
+                <button>
+                    <p>Link Four</p>
+                    <img src="/marketing-components/navbars/assets/images/chevron-down.svg" alt="image chevron down">
+                </button>
 
-    <div class="btn-wraper">
-        <button>Button</button>
-        <button class="btn-secondery">Button</button>
-    </div>
+            </nav>
+        </div>
 
-   </header>
-   <div class="Menu">
-    <div class="grup-one">
-        <h3>page grup one</h3>
-        <div>
-            <img src="/marketing-components/navbars/assets/images/Vector.svg" alt="">
-            <a href="">page one</a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <div class="btn-wraper">
+            <button>Button</button>
+            <button class="btn-secondery">Button</button>
         </div>
-        <div>
-            <img src="/marketing-components/navbars/assets/images/Vector.svg" alt="">
-            <a href="">page two</a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        </div>
-        <div>
-            <img src="/marketing-components/navbars/assets/images/Vector.svg" alt="">
-            <a href="">page three</a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        </div>
-        <div> 
-            <img src="/marketing-components/navbars/assets/images/Vector.svg" alt="">
-            <a href="">page four</a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        </div>
-    </div>
+    </header>
 
-    <div class="grup-two">
-        <h3>page grup two</h3>
-         <div >
-            <img src="/marketing-components/navbars/assets/images/Vector.svg" alt="">
-            <a href="">page one</a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+
+
+
+
+    <div class="Menu">
+        <div class="grup-one">
+            <h5>Page grup one</h5>
+            <div>
+                <img src="/marketing-components/navbars/assets/images/box.svg" alt="">
+                <a href="">Page one</a>
+                <p>Lorem ipsum dolor sit amet consectetur elit</p>
+            </div>
+            <div>
+                <img src="/marketing-components/navbars/assets/images/box.svg" alt="">
+                <a href="">Page two</a>
+                <p>Lorem ipsum dolor sit amet consectetur elit</p>
+            </div>
+            <div>
+                <img src="/marketing-components/navbars/assets/images/box.svg" alt="">
+                <a href="">Page three</a>
+                <p>Lorem ipsum dolor sit amet consectetur elit</p>
+            </div>
+            <div>
+                <img src="/marketing-components/navbars/assets/images/box.svg" alt="">
+                <a href="">Page four</a>
+                <p>Lorem ipsum dolor sit amet consectetur elit</p>
+            </div>
         </div>
-        <div>
-            <img src="/marketing-components/navbars/assets/images/Vector.svg" alt="">
-            <a href="">page two</a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+
+        <div class="grup-two">
+            <h5>Page grup two</h5>
+            <div>
+                <img src="/marketing-components/navbars/assets/images/box.svg" alt="">
+                <a href="">Page one</a>
+                <p>Lorem ipsum dolor sit amet consectetur elit</p>
+            </div>
+            <div>
+                <img src="/marketing-components/navbars/assets/images/box.svg" alt="">
+                <a href="">Page two</a>
+                <p>Lorem ipsum dolor sit amet consectetur elit</p>
+            </div>
+            <div>
+                <img src="/marketing-components/navbars/assets/images/box.svg" alt="">
+                <a href="">Page three</a>
+                <p>Lorem ipsum dolor sit amet consectetur elit</p>
+            </div>
+            <div>
+                <img src="/marketing-components/navbars/assets/images/box.svg" alt="">
+                <a href="">Page four</a>
+                <p>Lorem ipsum dolor sit amet consectetur elit</p>
+            </div>
         </div>
-        <div >
-            <img src="/marketing-components/navbars/assets/images/Vector.svg" alt="">
-            <a href="">page three</a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        </div>
-        <div >
-            <img src="/marketing-components/navbars/assets/images/Vector.svg" alt="">
-            <a href="">page four</a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+
+        
+        <div class="blog">
+            <h5>Featured from Blog</h5>
+        
+            <div class="blog-post">
+                <img src="/marketing-components/navbars/assets/images/Placeholder Image.svg" alt="">
+                <h4>Article title</h4>
+                <p>Lorem ipsum dolor sit amet consectetur elit</p>
+                <a href="">Read more</a>
+            </div>
+        
+            <div class="blog-post">
+                <img src="/marketing-components/navbars/assets/images/Placeholder Image.svg" alt="">
+                <h4>Article title</h4>
+                <p>Lorem ipsum dolor sit amet consectetur elit</p>
+                <a href="">Read more</a>
+        
+            </div>
+                <button>
+                    <p>Button</p>
+                    <img src="/marketing-components/navbars/assets/images/Vector.svg" alt="image chevron Vector">
+                </button>
         </div>
     </div>
-   </div>
+    
 </body>
 
 </html>
+
