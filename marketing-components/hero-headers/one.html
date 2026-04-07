@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header 1</title>
+</head>
+<style>
+    * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            border: none;
+            background: none;
+            font-family: "Roboto", sans-serif;
+            font-style: normal;
+        }
+        main{
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            padding: 112px 64px;
+        }
+        .hero{
+            width: 600px;
+            height: 319px;
+            justify-content: center;
+            align-items: center;
+            margin-right: 100px;
+        }
+        img{
+            width: 700px;
+            height: 700px;
+            float: right;
+        }
+        .hero h1{
+            font-size: 50px;
+            margin-bottom: 24px;
+        }
+        .hero p {
+            text-align: justify;
+            text-justify: inter-word;
+            margin-bottom: 32px;
+        }
+        .btn-wraper > button{
+            padding: 12px 30px;
+            border: 1px solid black;
+            margin-right: 16px;
+            font-size: 16px;
+        }
+        .btn-secondery{
+            background-color: black;
+            color: white; 
+
+        }
+
+</style>
+<body>
+    <main>
+        <div class="hero">
+            <h1>Medium length hero <br> headline goes here</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse <br> varius enim in eros elementum tristique. Duis cursus, mi quis viverra <br> ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+            <div class="btn-wraper">
+                <button>Button</button>
+                <button class="btn-secondery">Button</button>
+            </div>
+        </div>
+        <img src="../navbars/assets/images/Placeholder Image.svg" alt="">
+    </main>
+</body>
+</html>
